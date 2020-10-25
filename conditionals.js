@@ -10,7 +10,7 @@ if (cold) {
 }
 
 console.log("Now you're ready to go outside!");
-*/
+
 
 //temperature has to be less than 0 for the program to tell us to pick a scarf. 
 //temperature needs to be 15 or greater for short sleeves to be fine.
@@ -25,3 +25,30 @@ if (temperature < 0) {
 }
 
 console.log("Now you're ready to go outside!");
+
+
+const isCitizen = false;
+const age = 26;
+
+if (isCitizen && age > 18) {
+  console.log("You are eligible to vote.");
+} else {
+    console.log("You are not eligible to vote.");
+}
+
+
+const temperature = 10
+
+if (temperature < -40 || temperature > 40) {
+    console.log("Maybe going outside isn't such a great idea…");
+  } else {
+      console.log("You can go outside, but dress for the weather");
+  }
+
+  */
+const raining = true;
+
+ if (!raining) {
+    console.log("Leave your umbrella at home!");
+  }
+  
